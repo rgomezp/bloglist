@@ -16,6 +16,6 @@ $(function(){
     console.log(seconds);
     $("#timer").html(minutes + ":" + seconds2);
   }
-  var seconds = 600;
+  var seconds = 300;
   var timeout = setInterval(timer,1000);
 })
